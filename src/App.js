@@ -1,9 +1,11 @@
 import React from "react";
-
+import Email_Pass from './components/email_pass.js';
 function App() {
   return (
     <div className="app">
-      <h1>Hello World!</h1>
+      <Email_Pass>
+        
+      </Email_Pass>
     </div>
   );
 }

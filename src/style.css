@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    text-align: center;
+}
+
+.main form,
+.main .details {
+    width: 600px;
+    border: 1px solid #ddd;
+    margin: 15px auto; /* Center the form horizontally */
+    padding: 23px;
+    text-align: left; /* Align form elements to the left */
+}
+
+.main .details > div {
+    margin: 15px;
+    font-weight: 200;
+}
+
+.main .details > h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px; /* Add some space below the heading */
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 30px); /* Take up full width with padding */
+    padding: 10px; /* Reduced padding */
+    margin: 5px 0; /* Add margin only on top and bottom */
+}
+
+button {
+    padding: 10px 20px; /* Adjust button padding */
+    margin: 5px 0; /* Add margin only on top and bottom */
+}
+
+.errorMsg {
+    padding: 5px;
+    margin: 0;
+    font-size: 11px;
+    color: red;
+}
